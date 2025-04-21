@@ -13,7 +13,7 @@ class Kisiler :Codable{
     //Sınıftan nesne oluşturulduğunda çalışan metodlardır.
     
     init(){
-    
+     print("deneme")
     }
     
     init(kisi_id: Int, kisi_ad: String, kisi_tel: String) {
