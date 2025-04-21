@@ -37,7 +37,7 @@ class Anasayfa: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         //Sayfa her göründüğünde çalışır.
         //Sayfaya geri dönüldüğünü anlayabiliriz.
-        print("viewWillAppear çalıştı.")
+        print("viewWillAppear çalıştı. ve kisi listesi yüklendi")
         anasayfaViewModel.kisileriYukle()
     }
     
